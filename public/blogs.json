@@ -1,0 +1,53 @@
+[
+    {
+      "id": "1",
+      "cover_img": "https://i.ibb.co/K9r4ZzF/2.png",
+      "title": "Lorem Ipsum Dolor",
+      "author": "John Doe",
+      "author_img": "https://i.ibb.co/F54dG2H/boy1.png",
+      "post_date": "2023-09-11",
+      "reading_time": 8 ,
+      "hashtags": ["technology", "programming", "LoremIpsum"]
+    },
+    {
+      "id": "2",
+      "cover_img": "https://i.ibb.co/Tbyj44K/3.png",
+      "title": "The Art of Fiction",
+      "author": "Jane Smith",
+      "author_img": "https://i.ibb.co/T8022VK/boy2.jpg",
+      "post_date": "2023-09-10",
+      "reading_time": 12 ,
+      "hashtags": ["literature", "writing", "creativity"]
+    },
+    {
+      "id": "3",
+      "cover_img": "https://i.ibb.co/wSQHrZH/4.jpg",
+      "title": "Cooking Made Easy",
+      "author": "Chef Michael",
+      "author_img": "https://i.ibb.co/fS7DGYk/girl1.jpg",
+      "post_date": "2023-09-09",
+      "reading_time": 15,
+      "hashtags": ["cooking", "recipes", "food"]
+    },
+    {
+      "id": "4",
+      "cover_img": "https://i.ibb.co/hmhQP6d/4378174.jpg",
+      "title": "Traveling Adventures",
+      "author": "Sarah Johnson",
+      "author_img": "https://i.ibb.co/svx0SHh/girl2.jpg",
+      "post_date": "2023-09-08",
+      "reading_time": 20,
+      "hashtags": ["travel", "adventure", "explore"]
+    },
+    {
+      "id": "5",
+      "cover_img": "https://i.ibb.co/5BCp5L8/1.jpg",
+      "title": "Fitness Revolution",
+      "author": "David Anderson",
+      "author_img": "https://i.ibb.co/4MD8hJV/profile.png",
+      "post_date": "2023-09-07",
+      "reading_time": 10,
+      "hashtags": ["fitness", "exercise", "health"]
+    }
+  ]
+  
