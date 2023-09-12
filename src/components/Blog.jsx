@@ -1,12 +1,12 @@
 import PropTypes from 'prop-types';
 import { FaBookmark } from 'react-icons/fa';
 
-const Blog = ({blog}) => {
+const Blog = ({ blog, handleAdd, readHandle }) => {
     const {title,cover_img, reading_time, author, author_img, post_date,hashtags} = blog
     return (
         <div className='mb-16'>
             <img className='w-full' src={cover_img} alt={`cover_img of the title ${title}`} />
-            <div className='flex justify-between justify-center items-center mt-8'>
+            <div className='flex justify-between items-center mt-8'>
                 <div className='flex justify-center gap-6'>
                     <img className='w-14' src={author_img} alt="" />
                     <div>
@@ -16,7 +16,8 @@ const Blog = ({blog}) => {
                 </div>
                 <div>
                     <span>{reading_time} min read</span>
-                    <button className='ml-2'><FaBookmark></FaBookmark></button>
+                    <button onClick={() => handleAdd(blog)}
+                    className='ml-2'><FaBookmark></FaBookmark></button>
                     
                 </div>
             </div>
@@ -26,12 +27,16 @@ const Blog = ({blog}) => {
               hashtags.map((hash, idx) => <span key={idx}><a href=''>#{hash}</a> </span>)  
             }
             </p>
+            <button onClick={() => readHandle(reading_time)} className='text-xl font-bold underline text-purple-800 mt-10'>Mark_as_read</button>
         </div>
     );
 };
 
 
 Blog.propTypes = {
-    blog : PropTypes.object.isRequired
+    blog : PropTypes.object.isRequired,
+    handleAdd : PropTypes.func.isRequired,
+     readHandle : PropTypes.func.isRequired
+    
 }
 export default Blog;
