@@ -7,7 +7,7 @@
       "author_img": "https://i.ibb.co/F54dG2H/boy1.png",
       "post_date": "2023-09-11",
       "reading_time": 8 ,
-      "hashtags": ["technology", "programming", "LoremIpsum"]
+      "hashtags": ["technology", "programming"]
     },
     {
       "id": "2",
@@ -17,17 +17,17 @@
       "author_img": "https://i.ibb.co/T8022VK/boy2.jpg",
       "post_date": "2023-09-10",
       "reading_time": 12 ,
-      "hashtags": ["literature", "writing", "creativity"]
+      "hashtags": ["literature", "creativity"]
     },
     {
       "id": "3",
       "cover_img": "https://i.ibb.co/wSQHrZH/4.jpg",
       "title": "Cooking Made Easy",
-      "author": "Chef Michael",
+      "author": "Shefani Dottin",
       "author_img": "https://i.ibb.co/fS7DGYk/girl1.jpg",
       "post_date": "2023-09-09",
       "reading_time": 15,
-      "hashtags": ["cooking", "recipes", "food"]
+      "hashtags": ["resource", "fire_burn"]
     },
     {
       "id": "4",
@@ -37,17 +37,17 @@
       "author_img": "https://i.ibb.co/svx0SHh/girl2.jpg",
       "post_date": "2023-09-08",
       "reading_time": 20,
-      "hashtags": ["travel", "adventure", "explore"]
+      "hashtags": ["travel", "explore"]
     },
     {
       "id": "5",
       "cover_img": "https://i.ibb.co/5BCp5L8/1.jpg",
       "title": "Fitness Revolution",
-      "author": "David Anderson",
+      "author": "Mariya Emamua",
       "author_img": "https://i.ibb.co/4MD8hJV/profile.png",
       "post_date": "2023-09-07",
       "reading_time": 10,
-      "hashtags": ["fitness", "exercise", "health"]
+      "hashtags": ["KERPA_#",  "ES6_"]
     }
   ]
   
